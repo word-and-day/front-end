@@ -18,16 +18,17 @@ export const Subject = styled.p`
 export const InputLine = styled.div`
     width: 43.345vmin;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin: 1.031996vmin 0;   
-
+    & div {
+        display: flex;
+    }
     & p{
         margin: 0 1.031996vmin 0 0;
         display: flex;
-        justify-content: center;
         font-size: 3.09598vmin;
     }
-
     & input{
         background-color: transparent;
         border: none;
@@ -38,7 +39,16 @@ export const InputLine = styled.div`
         color: #ffffff;
         font-size: 2.3vmin;
         letter-spacing: 0.12vmin;
+        min-width: 10vmin;
     } 
+    & select {
+        width: 6.193vmin;
+        height: 3.819vmin;
+        background: transparent;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        font-size: 2vmin;
+    }
 `
 export const OtherMsg = styled.p`
     font-size: 1.44479vmin;
@@ -47,7 +57,7 @@ export const OtherMsg = styled.p`
     justify-content: flex-end;
     margin: 0.412797vmin 0 0 0;
 `
-export const LoginButton = styled.button`
+export const Button = styled.button`
     font-size: 3.09598vmin;
     font-family: 마루 부리OTF Beta;
     background-color: transparent;
