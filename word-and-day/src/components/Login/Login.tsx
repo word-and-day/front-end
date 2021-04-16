@@ -14,7 +14,7 @@ function Login(){
                 </S.InputLine>
             </div>
             <S.OtherMsg>담임선생님 로그인하기</S.OtherMsg>
-            <S.LoginButton>로그인 하기</S.LoginButton>
+            <S.Button>로그인 하기</S.Button>
             <S.CreateAccount>계정 만들기</S.CreateAccount>
         </S.LoginBox>
     )
