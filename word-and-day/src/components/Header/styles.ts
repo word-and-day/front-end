@@ -8,30 +8,27 @@ export const HeaderBox = styled.div`
     align-items: center;
     position: fixed;
 `
-
-
 export const Title = styled.p`
     font-family: 마루 부리OTF Beta;
     font-size: 3.09598vmin;
     color: #fff;
     margin: 0 0 0 10.31992vmin;
     z-index: -500;
+    min-width: 20vmin;
 `
-
 export const RightBox = styled.div`
     display: flex;
     align-items: center;
     margin: 0 12.3839vmin 0 0;
     z-index: 500;
 `
-
 export const MySchedule = styled.p`
     font-size: 2.27038vmin;
     color: #fff;
-    width: 16vmin;
+    width: 12vmin;
     margin: 0;
+    padding: 0 2vmin;
 `
-
 export const MyWord = styled(MySchedule)``
 
 export const MyPlace = styled(MySchedule)``
