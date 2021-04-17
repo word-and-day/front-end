@@ -14,6 +14,7 @@ export const Subject = styled.p`
     width: 100vw;
     font-size: 5.2vmin;
     margin: 6.81115vmin;
+    cursor: default;
 `
 export const InputLine = styled.div`
     width: 43.345vmin;
@@ -28,6 +29,7 @@ export const InputLine = styled.div`
         margin: 0 1.031996vmin 0 0;
         display: flex;
         font-size: 3.09598vmin;
+        cursor: default;
     }
     & input{
         background-color: transparent;
@@ -48,9 +50,11 @@ export const InputLine = styled.div`
         color: #ffffff;
         border: 1px solid #ffffff;
         font-size: 2vmin;
+        cursor: pointer;
     }
     & option {
         background-color: #000000;
+        cursor: pointer;
     }
 `
 export const OtherMsg = styled.p`
@@ -59,6 +63,7 @@ export const OtherMsg = styled.p`
     display:flex;
     justify-content: flex-end;
     margin: 0.412797vmin 0 0 0;
+    cursor: pointer;
 `
 export const Button = styled.button`
     font-size: 3.09598vmin;
@@ -68,7 +73,9 @@ export const Button = styled.button`
     outline: none;
     color: #ffffff;
     margin: 4.33437vmin 0 1.031996vmin 0;
+    cursor: pointer;
 `
 export const CreateAccount = styled.p`
     font-size: 1.65119vmin;
+    cursor: pointer;
 `

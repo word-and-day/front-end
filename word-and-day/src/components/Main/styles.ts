@@ -12,4 +12,5 @@ export const TodayWord = styled.p`
     margin: 0;
     height: 100vh;
     position: fixed;
+    cursor: default;
 `

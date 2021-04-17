@@ -15,6 +15,7 @@ export const Title = styled.p`
     margin: 0 0 0 10.31992vmin;
     z-index: -500;
     min-width: 20vmin;
+    cursor: pointer;
 `
 export const RightBox = styled.div`
     display: flex;
@@ -28,6 +29,7 @@ export const MySchedule = styled.p`
     width: 12vmin;
     margin: 0;
     padding: 0 2vmin;
+    cursor: pointer;
 `
 export const MyWord = styled(MySchedule)``
 
