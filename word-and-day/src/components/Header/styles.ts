@@ -28,7 +28,7 @@ export const MySchedule = styled.p`
     color: #fff;
     width: 12vmin;
     margin: 0;
-    padding: 0 2vmin;
+    margin: 0 2vmin;
     cursor: pointer;
 `
 export const MyWord = styled(MySchedule)``
