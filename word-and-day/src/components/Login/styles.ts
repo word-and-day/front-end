@@ -49,6 +49,9 @@ export const InputLine = styled.div`
         border: 1px solid #ffffff;
         font-size: 2vmin;
     }
+    & option {
+        background-color: #000000;
+    }
 `
 export const OtherMsg = styled.p`
     font-size: 1.44479vmin;
