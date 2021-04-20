@@ -7,7 +7,6 @@ export const LoginBox = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 마루 부리OTF Beta;
     color: #ffffff;
 `
 export const Subject = styled.p`

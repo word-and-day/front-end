@@ -7,7 +7,6 @@ export const GroupBox = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 마루 부리OTF Beta;
     color: #ffffff;
 `
 export const Subject = styled.p`
@@ -41,9 +40,6 @@ export const InputLine = styled.div`
         font-size: 2.3vmin;
         letter-spacing: 0.12vmin;
         min-width: 10vmin;
-    }
-    & button{
-
     }
 `
 export const Button = styled.button`
