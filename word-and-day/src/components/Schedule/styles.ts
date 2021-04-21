@@ -39,3 +39,13 @@ export const Line = styled(Schedule)`
 export const Day = styled.p`
     font-size: 4.12797vmin;
 `
+
+export const Finish = styled.p`
+    font-size: 3vmin;
+    position: relative;
+    & p {
+        position: fixed;
+        bottom: 2vmin;
+        right: 15vmin;
+    }
+`
