@@ -3,7 +3,7 @@ body {
   font-family: 마루 부리OTF Beta, 나눔스퀘어;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./components/Main/BackgroundImg.jpg);
+  background-image: url(./asset/BackgroundImg.jpg);
   background-size: 100vw 100vh;
 }
 
