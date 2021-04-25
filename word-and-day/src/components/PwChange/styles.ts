@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ChangeBox = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ export const ChangeBox = styled.div`
     color: #ffffff;
 `
 export const Subject = styled.p`
-    width: 100vw;
+    width: 100%;
     font-size: 5.2vmin;
     margin: 6.81115vmin;
     cursor: default;

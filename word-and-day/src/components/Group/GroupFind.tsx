@@ -4,7 +4,7 @@ import Postit from "../../asset/Postit.png";
 
 function GroupFind() {
     return(
-        <S.Box>
+        <S.FindBox>
             <S.Subject>그룹찾기</S.Subject>
             <S.Line>
                 <p>그룹 코드 입력</p>
@@ -16,7 +16,7 @@ function GroupFind() {
                     <p>대고학생</p>
                 </div>
             </S.GroupChoice>
-        </S.Box>
+        </S.FindBox>
     )
 }
 
