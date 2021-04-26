@@ -1,15 +1,18 @@
 import styled from 'styled-components'
 
-export const Box = styled.div`
+export const FindBox = styled.div`
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     color: #ffffff;
     background-color: #001102;
     overflow: hidden;
+`
+export const GroupBox = styled(FindBox)`
+    justify-content: flex-start;
 `
 export const Subject = styled.p`
     width: 100%;
@@ -63,5 +66,36 @@ export const GroupChoice = styled.div`
 export const GroupName = styled.p`
     font-size: 6.19195vmin;
     width: 10vmin;
-    
+    /* position: absolute; */
+    margin: 0 8vmin;
+    /* left: 8vmin; */
+`
+export const PostCollect = styled.div`
+    width: auto;
+    height: 100%;
+    display: flex;
+`
+export const Post = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36vmin;
+    margin: 12.3839vmin 6vmin 12.3839vmin 0;
+    & div {
+        width: 37.359vmin;
+        height: 20.64vmin;
+        background-color: #ffffff;
+        display: flex;
+    }
+
+    & p {
+        color: #000000;
+        font-size: 3.09598vmin;
+        margin: 2.06398vmin;
+    }
+
+    & img {
+        position: absolute;
+        color: transparent;
+    }
 `
