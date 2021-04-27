@@ -9,12 +9,6 @@ export const LoginBox = styled.div`
     align-items: center;
     color: #ffffff;
 `
-export const Subject = styled.p`
-    width: 100%;
-    font-size: 5.2vmin;
-    margin: 6.81115vmin;
-    cursor: default;
-`
 export const InputLine = styled.div`
     width: 43.345vmin;
     display: flex;

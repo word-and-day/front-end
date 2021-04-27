@@ -1,10 +1,11 @@
 import React from 'react';
 import * as S from './styles'
+import * as G from './../GlobalStyle'
 
 function StdSchedule() {
     return(
         <S.ScheduleBox>
-            <S.Subject>시간표</S.Subject>
+            <G.Subject>시간표</G.Subject>
             <S.Schedule>
                 <S.Line>
                     <S.Day>.</S.Day>

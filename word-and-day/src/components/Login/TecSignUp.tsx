@@ -1,10 +1,11 @@
 import React from 'react';
 import * as S from './styles'
+import * as G from './../GlobalStyle'
 
 function TecSignUp(){
     return(
         <S.LoginBox>
-            <S.Subject>회원가입</S.Subject>
+            <G.Subject>회원가입</G.Subject>
             <div>
                 <S.InputLine>
                     <p>성함</p> <input type="text"/>

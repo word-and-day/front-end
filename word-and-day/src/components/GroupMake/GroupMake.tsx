@@ -1,10 +1,11 @@
 import React from 'react';
 import * as S from './styles'
+import * as G from './../GlobalStyle'
 
 function GroupMake(){
     return(
         <S.GroupBox>
-            <S.Subject>그룹만들기</S.Subject>
+            <G.Subject>그룹만들기</G.Subject>
             <div>
                 <S.InputLine>
                     <p>성함 :</p> <p>대쩌구</p>

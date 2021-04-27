@@ -1,10 +1,11 @@
 import React from 'react';
 import * as S from './styles'
+import * as G from './../GlobalStyle'
 
 function StdMyPlace(){
     return(
         <S.Place>
-            <S.Subject>나의 공간</S.Subject>
+            <G.Subject>나의 공간</G.Subject>
             <div>
                 <S.Line>
                     <div><p>학교 : </p> <p>대덕소프트웨어마이스터고등학교</p></div>

@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-
 export const TodayWord = styled.p`
     width: 100%;
     font-family: 마루 부리OTF Beta;

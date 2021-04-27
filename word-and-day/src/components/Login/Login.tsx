@@ -1,10 +1,11 @@
 import React from 'react';
 import * as S from './styles'
+import * as G from './../GlobalStyle'
 
 function Login(){
     return(
         <S.LoginBox>
-            <S.Subject>로그인</S.Subject>
+            <G.Subject>로그인</G.Subject>
             <div>
                 <S.InputLine>
                     <p>아이디</p> <input type="text"/>

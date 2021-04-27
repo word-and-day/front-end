@@ -7,6 +7,8 @@ export const HeaderBox = styled.div`
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    top: 0;
+    left: 0;
 `
 export const Title = styled.p`
     font-size: 3.09598vmin;
@@ -21,17 +23,12 @@ export const RightBox = styled.div`
     align-items: center;
     margin: 0 12.3839vmin 0 0;
     z-index: 500;
-`
-export const MySchedule = styled.p`
+    & p {
     font-size: 2.27038vmin;
     color: #fff;
     width: 12vmin;
     margin: 0;
     margin: 0 2vmin;
     cursor: pointer;
+}
 `
-export const MyWord = styled(MySchedule)``
-
-export const MyPlace = styled(MySchedule)``
-
-export const  Case = styled(MySchedule)``

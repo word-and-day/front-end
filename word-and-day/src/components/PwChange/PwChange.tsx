@@ -1,10 +1,11 @@
 import React from 'react';
 import * as S from './styles'
+import * as G from './../GlobalStyle'
 
 function PwChange () {
     return(
         <S.ChangeBox>
-            <S.Subject>비밀번호 변경</S.Subject>
+            <G.Subject>비밀번호 변경</G.Subject>
             <div>
                 <S.InputLine>
                     <p>현재 비밀번호 : </p> <input type="password"/>

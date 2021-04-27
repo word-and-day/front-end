@@ -6,10 +6,10 @@ function Header() {
         <S.HeaderBox>
           <S.Title>오늘의 한마디</S.Title>
             <S.RightBox>
-              <S.MySchedule>나의 시간표</S.MySchedule>
-              <S.MyWord>나의 한마디</S.MyWord>
-              <S.MyPlace>나의 공간</S.MyPlace>
-              <S.Case>시작하기</S.Case>
+              <p>나의 시간표</p>
+              <p>나의 한마디</p>
+              <p>나의 공간</p>
+              <p>시작하기</p>
             </S.RightBox>
         </S.HeaderBox>
     )
