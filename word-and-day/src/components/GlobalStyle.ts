@@ -5,3 +5,13 @@ export const Subject = styled.p`
     margin: 6.81115vmin;
     cursor: default;
 `
+
+export const Box = styled.div`
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+`

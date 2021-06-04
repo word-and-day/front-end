@@ -1,14 +1,17 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import Main from './components/Main/Main'
-import Header from './components/Header/Header'
+import { Header } from './components';
+import UserRouter from './router/UserRouter';
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
-      <Main></Main>
-    </div>
+    <>
+      <Router>
+        <Header />
+        <UserRouter></UserRouter>
+      </Router>
+    </>
   );
 }
 

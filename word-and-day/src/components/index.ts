@@ -7,6 +7,7 @@ export { default as StdSignUp} from './Login/StdSignUp';
 export { default as TecSignUp} from './Login/TecSignUp';
 export { default as StdMyPlace} from './MyPlace/StdMyPlace';
 export { default as TecMyPlace} from './MyPlace/TecMyPlace';
+export { default as MyWord} from './MyWord/MyWord';
 export { default as PwChange} from './PwChange/PwChange';
 export { default as StdSchedule} from './Schedule/StdSchedule';
 export { default as TecSchedule} from './Schedule/TecSchedule';
