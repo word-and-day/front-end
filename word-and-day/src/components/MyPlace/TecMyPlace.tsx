@@ -1,10 +1,11 @@
 import React from 'react';
 import * as S from './styles'
 import * as G from './../GlobalStyle'
+import { BrowserRouter } from 'react-router-dom';
 
 function TecMyPlace(){
     return(
-        <S.Place>
+        <G.Box>
             <G.Subject>나의 공간</G.Subject>
             <div>
                 <S.Line>
@@ -23,7 +24,7 @@ function TecMyPlace(){
                     <div><p>그룹코드 : </p> <p>QB2C5</p></div> <button>비밀번호 변경</button>
                 </S.Line>
             </div>
-        </S.Place>
+        </G.Box>
     )
 }
 

@@ -1,14 +1,5 @@
 import styled from 'styled-components'
 
-export const Place = styled.div`
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-`
 export const Line = styled.div`
     width: 55.522vmin;
     display: flex;

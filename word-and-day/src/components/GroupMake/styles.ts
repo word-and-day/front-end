@@ -1,14 +1,5 @@
 import styled from 'styled-components'
 
-export const GroupBox = styled.div`
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-`
 export const InputLine = styled.div`
     width: 55.522vmin;
     display: flex;

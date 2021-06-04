@@ -4,7 +4,7 @@ import * as G from './../GlobalStyle'
 
 function StdSchedule() {
     return(
-        <S.ScheduleBox>
+        <G.Box>
             <G.Subject>시간표</G.Subject>
             <S.Schedule>
                 <S.Line>
@@ -80,7 +80,7 @@ function StdSchedule() {
                     <p>전공</p>
                 </S.Line>
             </S.Schedule>
-        </S.ScheduleBox>
+        </G.Box>
     )
 }
 

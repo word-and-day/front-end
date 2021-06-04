@@ -4,7 +4,7 @@ import * as G from './../GlobalStyle'
 
 function TecSignUp(){
     return(
-        <S.LoginBox>
+        <G.Box>
             <G.Subject>회원가입</G.Subject>
             <div>
                 <S.InputLine>
@@ -45,7 +45,7 @@ function TecSignUp(){
             </div>
             <S.OtherMsg>학생 회원가입하기</S.OtherMsg>
             <S.Button>회원가입 하기</S.Button>
-        </S.LoginBox>
+        </G.Box>
     )
 }
 

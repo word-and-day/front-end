@@ -4,7 +4,7 @@ import * as G from './../GlobalStyle'
 
 function GroupMake(){
     return(
-        <S.GroupBox>
+        <G.Box>
             <G.Subject>그룹만들기</G.Subject>
             <div>
                 <S.InputLine>
@@ -21,7 +21,7 @@ function GroupMake(){
                 </S.InputLine>
             </div>
             <S.Button>그룹만들기</S.Button>
-        </S.GroupBox>
+        </G.Box>
     )
 }
 

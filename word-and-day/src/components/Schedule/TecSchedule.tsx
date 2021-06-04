@@ -4,7 +4,7 @@ import * as G from './../GlobalStyle'
 
 function TecSchedule() {
     return(
-        <S.ScheduleBox>
+        <G.Box>
             <G.Subject>시간표</G.Subject>
             <S.Schedule>
                 <S.Line>
@@ -81,7 +81,7 @@ function TecSchedule() {
                 </S.Line>
             </S.Schedule>
             <S.Finish><p>작성 마치기</p></S.Finish>
-        </S.ScheduleBox>
+        </G.Box>
     )
 }
 

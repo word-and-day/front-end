@@ -4,7 +4,7 @@ import * as G from './../GlobalStyle'
 
 function StdSignUp(){
     return(
-        <S.LoginBox>
+        <G.Box>
             <G.Subject>회원가입</G.Subject>
             <div>
                 <S.InputLine>
@@ -70,7 +70,7 @@ function StdSignUp(){
             </div>
             <S.OtherMsg>담임선생님 회원가입하기</S.OtherMsg>
             <S.Button>회원가입 하기</S.Button>
-        </S.LoginBox>
+        </G.Box>
     )
 }
 

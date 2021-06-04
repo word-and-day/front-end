@@ -1,14 +1,5 @@
 import styled from 'styled-components'
 
-export const LoginBox = styled.div`
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-`
 export const InputLine = styled.div`
     width: 43.345vmin;
     display: flex;

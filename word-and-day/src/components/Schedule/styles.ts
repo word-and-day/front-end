@@ -1,20 +1,5 @@
 import styled from 'styled-components'
 
-export const ScheduleBox = styled.div`
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-`
-// export const Subject = styled.p`
-//     width: 100%;
-//     font-size: 5.2vmin;
-//     margin: 6.81115vmin;
-//     cursor: default;
-// `
 export const Schedule = styled.div`
     display: flex;
     width: 100.104vmin;

@@ -4,7 +4,7 @@ import * as G from './../GlobalStyle'
 
 function PwChange () {
     return(
-        <S.ChangeBox>
+        <G.Box>
             <G.Subject>비밀번호 변경</G.Subject>
             <div>
                 <S.InputLine>
@@ -18,7 +18,7 @@ function PwChange () {
                 </S.InputLine>
             </div>
             <S.Button>비밀번호 변경 확인</S.Button>
-        </S.ChangeBox>
+        </G.Box>
     )
 }
 
