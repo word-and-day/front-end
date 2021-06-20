@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import * as S from './styles'
 import * as G from './../GlobalStyle'
 
@@ -20,7 +21,7 @@ function StdMyPlace(){
                     <div><p>개인코드 : </p> <p>201105</p></div>
                 </S.Line>
                 <S.Line>
-                    <div><p>그룹코드 : </p> <p>QB2C5</p></div> <button>비밀번호 변경</button>
+                    <div><p>그룹코드 : </p> <p>QB2C5</p></div> <NavLink exact to="/pwchange">비밀번호 변경</NavLink>
                 </S.Line>
             </div>
         </G.Box>

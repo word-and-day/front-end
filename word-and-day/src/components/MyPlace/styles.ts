@@ -27,7 +27,7 @@ export const Line = styled.div`
         letter-spacing: 0.12vmin;
         min-width: 10vmin;
     }
-    & button{
+    & a{
         font-size: 4.12797vmin;
         font-family: 마루 부리OTF Beta;
         background-color: transparent;
@@ -35,5 +35,6 @@ export const Line = styled.div`
         outline: none;
         color: #ffffff;
         cursor: pointer;
+        text-decoration: none;
     }
 `

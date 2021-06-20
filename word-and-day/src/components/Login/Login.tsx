@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import * as S from './styles'
 import * as G from './../GlobalStyle'
 
@@ -14,9 +15,9 @@ function Login(){
                     <p>비밀번호</p><input type="password"/>
                 </S.InputLine>
             </div>
-            <S.OtherMsg>담임선생님 로그인하기</S.OtherMsg>
+            {/* <NavLink exact to="/tecsignup">담임선생님 로그인하기</NavLink> */}
             <S.Button>로그인 하기</S.Button>
-            <S.CreateAccount>계정 만들기</S.CreateAccount>
+            <NavLink exact to="/signup">계정 만들기</NavLink>
         </G.Box>
     )
 }
